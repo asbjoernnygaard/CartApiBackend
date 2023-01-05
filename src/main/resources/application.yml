@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://snuffleupagus.db.elephantsql.com:5432/jbmrehgt
+    username: jbmrehgt
+    password: I4ik6w-XGyfpobqmIt9JFyesIVn2k5-Q
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      max-lifetime: 30000
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database: postgresql
+
